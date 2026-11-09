@@ -1,0 +1,106 @@
+/* ---------------- WADDLE PROJECT SHOWCASE ---------------- */
+
+.waddle-showcase {
+  margin-top: 45px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+
+  background: #f4f4f4;           /* light grey */
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: border-color 0.3s ease;
+}
+
+.video-container:hover {
+  border-color: #111;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.video-placeholder {
+  text-align: center;
+  color: #111;
+}
+
+.play-button {
+  width: 65px;
+  height: 65px;
+
+  border: 1px solid #111;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto 18px;
+
+  color: #111;
+  font-size: 22px;
+
+  transition: all 0.3s ease;
+}
+
+.video-container:hover .play-button {
+  background: #111;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.video-caption {
+  font-family: monospace;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: #111;
+}
+
+.project-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.project-type {
+  color: #111;
+  font-size: 12px;
+  font-family: monospace;
+}
+
+.github-button {
+  color: #111;
+  text-decoration: none;
+
+  font-size: 13px;
+
+  border: 1px solid #111;
+  background: #fff;
+  padding: 9px 17px;
+  border-radius: 5px;
+
+  transition: all 0.25s ease;
+}
+
+.github-button:hover {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
